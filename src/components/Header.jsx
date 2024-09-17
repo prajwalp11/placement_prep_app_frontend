@@ -24,8 +24,8 @@ const Header = () => {
                     {/* <img src={logo} alt="logo" style={{ width: 95, marginBottom: 6 }} /> */}
                     <h1> Nitte placement resources </h1>
                 </Link>
-                <Link to={routePath.create} style={{margin: "0 3rem 0 70rem"}}><span style={{fontSize:20}}>Post an experience</span></Link>
-                <Link to={routePath.posts}><span style={{fontSize:20}}>Find interview experience</span></Link>
+                <Link to={routePath.create} style={{margin: "0 3rem 0 67rem"}}><span style={{fontSize:18}}>Post an experience</span></Link>
+                <Link to={routePath.posts}><span style={{fontSize:18}}>Find interview experience</span></Link>
             </Toolbar>
         </StyledAppBar>
     )
